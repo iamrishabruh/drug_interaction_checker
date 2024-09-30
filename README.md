@@ -41,5 +41,5 @@ Select your desired simulator or connected device and click the "Run" button.
 ## Usage
 Once the application is running, users can navigate to the drug interaction feature to input medications and receive comprehensive reports on potential interactions.
 
-## Contribution
+## Contributions
 If you have suggestions for improvements or want to contribute to this project, please create an issue or submit a pull request.
