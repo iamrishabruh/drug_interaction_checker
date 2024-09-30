@@ -5,7 +5,9 @@ This repository contains the proof of concept for integrating the National Insti
 ## Key Features
 
 **Comprehensive Drug Interaction Insights:** Users can access detailed information on potential interactions between multiple medications, helping to mitigate risks associated with polypharmacy.
+
 **User-Friendly Interface:** The feature is designed to seamlessly integrate into the existing KP iOS application, providing a smooth user experience.
+
 **Real-Time Data:** Utilizes the NIH Drug Interaction API to deliver up-to-date information regarding drug interactions directly to users.
 
 ## Motivation
@@ -13,6 +15,7 @@ This repository contains the proof of concept for integrating the National Insti
 In healthcare, understanding drug interactions is crucial for ensuring patient safety, particularly for individuals taking multiple medications. By integrating this feature into the KP flagship application, we aim to:
 
 **Enhance Patient Safety:** Reduce the risk of adverse drug interactions through timely and accurate information.
+
 **Empower Users:** Provide KP members with the tools to make informed decisions about their medications.
 
 ## Installation
