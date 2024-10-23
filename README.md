@@ -213,9 +213,8 @@ This project is licensed under the MIT License.
 
 For questions, suggestions, or feedback, please reach out to:
 
-- **GitHub:** [iamrishabruh](https://github.com/iamrishabruh)
-- **Email:** [rchouhan.network@gmail.com](mailto:rchouhan.network@gmail.com)
-- **Linkedin:** [Linkedin](https://www.linkedin.com/in/chouhanrishabh/)
+- [Email](mailto:rchouhan.network@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/chouhanrishabh/)
 
 ## Disclaimer
 
