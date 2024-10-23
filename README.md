@@ -115,7 +115,10 @@ Xcode typically handles this automatically. If not, go to `File > Swift Packages
 ```
 
 - **CocoaPods:**
-  Run `pod install` in the project directory.
+
+```bash
+  Run "pod install" in the project directory.
+```
 
 5. **Build and Run the Application**
 
@@ -167,7 +170,9 @@ We welcome contributions to enhance the KP Drug Interaction Feature. To contribu
 
 1. **Fork the Repository**
 
+```bash
 Click the Fork button at the top-right corner of this repository.
+```
 
 2. **Create a Feature Branch**
 
@@ -189,7 +194,9 @@ git push origin feature/YourFeatureName
 
 5. **Open a Pull Request**
 
+```bash
 Navigate to the original repository and open a pull request detailing your changes.
+```
 
 ### Contribution Guidelines
 
