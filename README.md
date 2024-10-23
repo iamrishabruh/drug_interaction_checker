@@ -89,8 +89,8 @@ cd drug_interaction_checker
 2. **Open the Project in Xcode**
 
 ```bash
-- Navigate to the cloned directory.
-- Open `KPDrugInteractionFeature.xcodeproj` with Xcode.
+Navigate to the cloned directory.
+Open `KPDrugInteractionFeature.xcodeproj` with Xcode.
 ```
 
 3. **Configure API Access**
@@ -98,8 +98,8 @@ cd drug_interaction_checker
 > **Important:** Since the NIH NLM Drug Interaction API is deprecated, ensure you have access to an alternative API or have the necessary credentials if available.
 
 ```bash
-- Locate the Networking layer files (e.g., `APIService.swift`).
-- Update the API endpoint URLs and insert your API keys or tokens as required.
+Locate the Networking layer files (e.g., `APIService.swift`).
+Update the API endpoint URLs and insert your API keys or tokens as required.
 ```
 
 4. **Install Dependencies**
@@ -111,17 +111,17 @@ If the project uses Swift Package Manager or CocoaPods, ensure dependencies are 
 - **Swift Package Manager:**
 
 ```bash
-  - Xcode typically handles this automatically. If not, go to `File > Swift Packages > Resolve Package Versions`.
+Xcode typically handles this automatically. If not, go to `File > Swift Packages > Resolve Package Versions`.
 ```
 
 - **CocoaPods:**
-  - Run `pod install` in the project directory.
+  Run `pod install` in the project directory.
 
 5. **Build and Run the Application**
 
 ```bash
-- Select the desired simulator or connect your iOS device.
-- Click the Run button (▶️) in Xcode to build and launch the application.
+Select the desired simulator or connect your iOS device.
+Click the Run button (▶️) in Xcode to build and launch the application.
 ```
 
 ## Usage
@@ -154,8 +154,7 @@ The project includes unit tests to ensure the reliability of the networking laye
 UI tests are implemented using XCTest to verify the user interface components and interactions.
 
 - **Run UI Tests:**
-
-In Xcode, select `Product > Test` or press `⌘U`.
+- In Xcode, select `Product > Test` or press `⌘U`.
 
 ### Test Coverage
 
