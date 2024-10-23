@@ -3,7 +3,7 @@
 ![Swift](https://img.shields.io/badge/Swift-5.7-orange.svg)
 ![iOS](https://img.shields.io/badge/iOS-16.0-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Build](https://github.com/your-username/KPDrugInteractionFeature/workflows/Build/badge.svg)
+![Build](https://github.com/iamrishabruh/drug_interaction_checker/workflows/Build/badge.svg)
 
 ## Table of Contents
 
