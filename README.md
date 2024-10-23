@@ -1,45 +1,88 @@
-## KP Drug Interaction Feature
+# KP Drug Interaction Feature
 
-This repository contains the proof of concept for integrating the National Institutes of Health (NIH) National Library of Medicine Drug Interaction API into Kaiser Permanente's Flagship iOS application. This innovative feature addresses a critical healthcare challenge by providing Kaiser Permanente (KP) members with comprehensive insights into multi-drug interactions, enhancing patient safety and empowering users with vital health information.
+![Swift](https://img.shields.io/badge/Swift-5.7-orange.svg)
+![iOS](https://img.shields.io/badge/iOS-16.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Build](https://github.com/your-username/KPDrugInteractionFeature/workflows/Build/badge.svg)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Motivation](#motivation)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Disclaimer](#disclaimer)
+
+## Overview
+
+The **KP Drug Interaction Feature** is a proof of concept (POC) developed to integrate the National Institutes of Health (NIH) National Library of Medicine (NLM) Drug Interaction API into Kaiser Permanente's (KP) flagship iOS application. This feature is designed to enhance patient safety by providing comprehensive insights into potential multi-drug interactions, empowering KP members with vital health information directly within the KP mobile app.
+
+> **Note:** The NIH NLM Drug Interaction API used in this project is currently deprecated. Future integrations should consider alternative APIs or updated endpoints.
 
 ## Key Features
 
-**Comprehensive Drug Interaction Insights:** Users can access detailed information on potential interactions between multiple medications, helping to mitigate risks associated with polypharmacy.
-
-**User-Friendly Interface:** The feature is designed to seamlessly integrate into the existing KP iOS application, providing a smooth user experience.
-
-**Real-Time Data:** Utilizes the NIH Drug Interaction API to deliver up-to-date information regarding drug interactions directly to users.
+- **Comprehensive Drug Interaction Insights:** Provides detailed information on potential interactions between multiple medications, aiding in the mitigation of polypharmacy risks.
+  
+- **User-Friendly Interface:** Seamlessly integrates into the existing KP iOS application, ensuring a consistent and intuitive user experience.
+  
+- **Real-Time Data Retrieval:** Leverages the NIH NLM Drug Interaction API to fetch and display up-to-date information on drug interactions.
+  
+- **Adherence to KP Standards:** Developed following Kaiser Permanente's design and coding standards to ensure maintainability and scalability.
 
 ## Motivation
 
-In healthcare, understanding drug interactions is crucial for ensuring patient safety, particularly for individuals taking multiple medications. By integrating this feature into the KP flagship application, we aim to:
+In the realm of healthcare, understanding drug interactions is paramount for ensuring patient safety, especially for individuals managing multiple medications. By embedding this feature into the KP flagship application, we strive to:
 
-**Enhance Patient Safety:** Reduce the risk of adverse drug interactions through timely and accurate information.
+- **Enhance Patient Safety:** Minimize the risk of adverse drug interactions through timely and accurate information dissemination.
+  
+- **Empower Users:** Equip KP members with the necessary tools to make informed decisions regarding their medication regimens.
+  
+- **Support Healthcare Providers:** Provide healthcare professionals with reliable interaction data to assist in patient consultations and treatment planning.
 
-**Empower Users:** Provide KP members with the tools to make informed decisions about their medications.
+## Architecture
+
+The KP Drug Interaction Feature is built using SwiftUI for the user interface and leverages Xcode for development. The feature communicates with the NIH NLM Drug Interaction API to fetch interaction data, processes the information, and presents it within the KP iOS application.
+
+### Components
+
+- **UI Layer:** SwiftUI views adhering to KP's design guidelines.
+- **Networking Layer:** Handles API requests and responses using `URLSession` and `Combine`.
+- **Data Layer:** Models and manages drug interaction data.
+- **Error Handling:** Robust mechanisms to manage API failures and data inconsistencies.
+- **Persistence Layer:** (If applicable) Caches interaction data for offline access using Core Data or similar solutions.
+
+## Tech Stack
+
+- **Language:** Swift 5.7
+- **Frameworks:** SwiftUI, Combine
+- **Development Environment:** Xcode 14+
+- **API:** NIH NLM Drug Interaction API (Deprecated)
+- **Version Control:** Git, GitHub
+- **CI/CD:** GitHub Actions (or specify if different)
+- **Testing:** XCTest for unit and UI testing
 
 ## Installation
 
-To run this project locally, follow these steps:
+To run this project locally, follow the steps below:
 
-1. Clone the repository:
-```
-git clone https://github.com/your-username/KPDrugInteractionFeature.git
-```
-```
-cd KPDrugInteractionFeature
-```
+### Prerequisites
 
-2. Open the project in Xcode:
+- **Xcode 14+** installed on your Mac.
+- **Git** installed on your machine.
+- **Access Credentials:** If the NIH NLM Drug Interaction API requires authentication, ensure you have the necessary API keys or tokens.
 
-Open KPDrugInteractionFeature.xcodeproj.
+### Steps
 
-3. Build and run the application:
+1. **Clone the Repository**
 
-Select your desired simulator or connected device and click the "Run" button.
-
-## Usage
-Once the application is running, users can navigate to the drug interaction feature to input medications and receive comprehensive reports on potential interactions.
-
-## Contributions
-If you have suggestions for improvements or want to contribute to this project, please create an issue or submit a pull request.
+   ```bash
+   git clone https://github.com/your-username/KPDrugInteractionFeature.git
+   cd KPDrugInteractionFeature
