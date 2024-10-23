@@ -13,7 +13,6 @@
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
@@ -61,11 +60,11 @@ The KP Drug Interaction Feature is built using SwiftUI for the user interface an
 ## Tech Stack
 
 - **Language:** Swift 5.7
-- **Frameworks:** SwiftUI, Combine
+- **Frameworks:** SwiftUI
 - **Development Environment:** Xcode 14+
 - **API:** NIH NLM Drug Interaction API (Deprecated)
 - **Version Control:** Git, GitHub
-- **CI/CD:** GitHub Actions (or specify if different)
+- **CI/CD:** GitHub Actions
 - **Testing:** XCTest for unit and UI testing
 
 ## Installation
@@ -76,7 +75,7 @@ To run this project locally, follow the steps below:
 
 - **Xcode 14+** installed on your Mac.
 - **Git** installed on your machine.
-- **Access Credentials:** If the NIH NLM Drug Interaction API requires authentication, ensure you have the necessary API keys or tokens.
+- **Access Credentials:** NIH NLM Drug Interaction API requires authentication, ensure you have the necessary API keys or tokens.
 
 ### Steps
 
@@ -110,15 +109,20 @@ If the project uses Swift Package Manager or CocoaPods, ensure dependencies are 
 ```
 
 - **Swift Package Manager:**
+
+```bash
   - Xcode typically handles this automatically. If not, go to `File > Swift Packages > Resolve Package Versions`.
+```
 
 - **CocoaPods:**
   - Run `pod install` in the project directory.
 
 5. **Build and Run the Application**
 
+```bash
 - Select the desired simulator or connect your iOS device.
 - Click the Run button (▶️) in Xcode to build and launch the application.
+```
 
 ## Usage
 
@@ -150,7 +154,8 @@ The project includes unit tests to ensure the reliability of the networking laye
 UI tests are implemented using XCTest to verify the user interface components and interactions.
 
 - **Run UI Tests:**
-- In Xcode, select `Product > Test` or press `⌘U`.
+
+In Xcode, select `Product > Test` or press `⌘U`.
 
 ### Test Coverage
 
@@ -163,7 +168,7 @@ We welcome contributions to enhance the KP Drug Interaction Feature. To contribu
 
 1. **Fork the Repository**
 
-- Click the Fork button at the top-right corner of this repository.
+Click the Fork button at the top-right corner of this repository.
 
 2. **Create a Feature Branch**
 
@@ -185,14 +190,14 @@ git push origin feature/YourFeatureName
 
 5. **Open a Pull Request**
 
-- Navigate to the original repository and open a pull request detailing your changes.
+Navigate to the original repository and open a pull request detailing your changes.
 
 ### Contribution Guidelines
 
-- **Code Standards:** Adhere to Kaiser Permanente's coding standards and best practices.
-- **Documentation:** Ensure all new features and changes are well-documented.
-- **Testing:** Include relevant tests for your contributions.
-- **Issue Tracking:** Link any related issues in your pull request description.
+**Code Standards:** Adhere to Kaiser Permanente's coding standards and best practices.
+**Documentation:** Ensure all new features and changes are well-documented.
+**Testing:** Include relevant tests for your contributions.
+**Issue Tracking:** Link any related issues in your pull request description.
 
 ## License
 
@@ -202,10 +207,10 @@ This project is licensed under the MIT License.
 
 For questions, suggestions, or feedback, please reach out to:
 
-- **Project Lead:** Rishabh Chouhan
 - **GitHub:** [iamrishabruh](https://github.com/iamrishabruh)
 - **Email:** [rchouhan.network@gmail.com](mailto:rchouhan.network@gmail.com)
+- **Linkedin:** [Linkedin](https://www.linkedin.com/in/chouhanrishabh/)
 
 ## Disclaimer
 
-**Disclaimer:** This is a proof of concept project and not intended for production use. The NIH NLM Drug Interaction API is deprecated; please refer to official sources for the latest information on drug interactions.
+This is a proof of concept project and not intended for production use. The NIH NLM Drug Interaction API is deprecated; please refer to official sources for the latest information on drug interactions.
