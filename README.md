@@ -200,13 +200,13 @@ Navigate to the original repository and open a pull request detailing your chang
 
 ### Contribution Guidelines
 
-**Code Standards:** Adhere to Kaiser Permanente's coding standards and best practices.
+- Adhere to Kaiser Permanente's coding standards and best practices.
 
-**Documentation:** Ensure all new features and changes are well-documented.
+- Ensure all new features and changes are well-documented.
 
-**Testing:** Include relevant tests for your contributions.
+- Include relevant tests for your contributions.
 
-**Issue Tracking:** Link any related issues in your pull request description.
+- Link any related issues in your pull request description.
 
 ## License
 
